@@ -1,0 +1,19 @@
+{
+  "name": "telegram-web",
+  "version": "1.0.0",
+  "description": "telegram.web desktop app",
+  "author": "Art4k1",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "31.7.7",
+    "electron-builder": "24.13.3"
+  },
+  "build": {
+    "appId": "com.art4k1.telegramweb",
+    "productName": "telegram.web",
+    "win": {
+      "target": "portable",
+      "artifactName": "telegram-web.exe"
+    }
+  }
+}
